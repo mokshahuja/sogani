@@ -1,0 +1,49 @@
+.About {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1.5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(156, 212, 235);
+  border-radius: 5rem;
+  box-shadow: 0.2rem 0.75rem 5rem rgb(92, 74, 74);
+}
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: rgb(251, 255, 0);
+  padding: 1.5rem;
+  margin-top: 4.5rem;
+  margin-bottom: 4rem;
+  width: 70%;
+  height: 11rem;
+  margin-left: 2rem;
+  background-color: rgb(128, 182, 87);
+  border-radius: 5rem;
+  box-shadow: 0.2rem 0.75rem 5rem rgb(92, 74, 74);
+}
+
+.contactDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact > h4 {
+  margin: 0.75rem;
+  margin-left: 1.5rem;
+}
+.Contact > h2 {
+  margin: 0.75rem;
+  margin-left: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .Contact {
+    width: 50%;
+  }
+}

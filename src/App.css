@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: "100vw";
+}
+
+.brandsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: "90vw";
+  overflow-x: hidden;
+}
+
+.brandGrid__Section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-weight: bolder;
+}
+
+@media (min-width: 640px) {
+  .brandGrid__Section {
+    font-size: 4rem;
+  }
+}
